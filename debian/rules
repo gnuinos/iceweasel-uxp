@@ -1,0 +1,107 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+SHELL		:= bash
+
+# Use dpkg-buildflags to get build flags, but exclude -g, that is dealt with
+# via configure options.
+dpkg_buildflags = $(and $(1),$(shell DEB_CFLAGS_MAINT_STRIP="-g" dpkg-buildflags --get $(1)))
+$(call lazy,CFLAGS,$$(call dpkg_buildflags,CFLAGS))
+$(call lazy,CPPFLAGS,$$(call dpkg_buildflags,CPPFLAGS))
+$(call lazy,LDFLAGS,$$(call dpkg_buildflags,LDFLAGS))
+
+$(call lazy,DEB_HOST_MULTIARCH,$$(shell dpkg-architecture -qDEB_HOST_MULTIARCH))
+$(call lazy,DEB_BUILD_GNU_CPU,$$(shell dpkg-architecture -qDEB_BUILD_GNU_CPU))
+
+include /usr/share/dpkg/pkg-info.mk
+
+PRODUCT := $(DEB_SOURCE)
+
+COMMON_CONFIGURE_FLAGS += --target=$(DEB_HOST_MULTIARCH)
+COMMON_CONFIGURE_FLAGS += --host=$(DEB_HOST_MULTIARCH)
+COMMON_CONFIGURE_FLAGS += --prefix=/usr
+
+LIB_DIR := /usr/lib/$(DEB_HOST_MULTIARCH)/$(PRODUCT)
+SHARE_DIR := /usr/share/$(PRODUCT)
+
+LDFLAGS += -Wl,--as-needed
+
+# Also add execution time and memory usage stats in the logs
+LDFLAGS += -Wl,--stats
+
+CC := gcc
+CXX := g++
+
+CXXFLAGS = $(CFLAGS)
+
+EXPORTS := CC CXX CFLAGS CXXFLAGS CPPFLAGS LDFLAGS
+$(call lazy,CONFIGURE_ENV,$$(foreach export,$(EXPORTS),$$(export)="$$($$(export))"))
+
+debian/control: debian/rules debian/changelog
+
+override_dh_auto_configure:
+	echo $@ >> debian/extra-clean
+
+override_dh_auto_build-arch:
+# Ensure --{with,enable}-system options properly set expected variables
+# according to the definitions in the mozconfig file.
+	@awk -F' *# *| *$$' ' \
+	BEGIN { confs="$(foreach f,autoconf.mk emptyvars.mk,$(CURDIR)/obj-$(DEB_BUILD_GNU_CPU)-pc-linux-gnu/config/$(f))" } \
+	$$1 ~ /system-/ { \
+		if (! $$2) { \
+			print FILENAME ": Missing variable for",$$1; \
+			error=1; \
+		} else { \
+			split($$2,var,"="); \
+			cmd = "grep -l " var[1] " " confs; \
+			cmd | getline dir; \
+			sub(/\/[^\/]*$$/, "", dir); \
+			cmd = "$(MAKE) -C " dir " --no-print-directory echo-variable-" var[1]; \
+			cmd | getline value; \
+			if (value != var[2]) { print $$1, "triggered", var[1] "=" value,"instead of",$$2; error=1 } \
+		} \
+	} \
+	END { if (error) { exit 1 }}' debian/$(PRODUCT).mozconfig
+	
+	MOZCONFIG=$(CURDIR)/debian/$(PRODUCT).mozconfig \
+	ASFLAGS="-g" \
+	$(CONFIGURE_ENV) \
+	$(CURDIR)/mach build
+
+override_dh_auto_clean:
+	rm -f $$(cat debian/extra-clean 2>/dev/null) debian/extra-clean
+	debian/rules debian/control TESTDIR=
+	dh_auto_clean --builddirectory=obj-$(DEB_BUILD_GNU_CPU)-pc-linux-gnu
+
+override_dh_clean:
+
+override_dh_auto_install-arch:
+	dh_auto_install --builddirectory=obj-$(DEB_BUILD_GNU_CPU)-pc-linux-gnu
+	#-TZ=UTC unzip -d debian/$(PRODUCT)$(LIB_DIR)/browser debian/$(PRODUCT)$(LIB_DIR)/browser/omni.ja 'defaults/preferences/*'
+
+override_dh_install-arch: debian/noinstall
+	awk '{print "debian/tmp/" $$1 }' < debian/noinstall | xargs rm -r
+	cp -av debian/iceweasel-uxp.desktop debian/tmp/ 
+	chmod +x debian/iceweasel-uxp.install
+	dh_install --fail-missing
+
+override_dh_usrlocal:
+
+override_dh_strip:
+
+override_dh_strip_nondeterminism:
+
+override_dh_shlibdeps:
+	dh_shlibdeps -a -l$(CURDIR)/debian/tmp$(LIB_DIR) -- -xlibgtk2.0-0
+
+install binary binary-arch binary-indep:
+
+binary binary-arch build build-arch clean install:
+	dh $@
+
+.PHONY: build clean binary-indep binary-arch binary install
+
+$(eval ALL_STAMPS := $(shell awk -F:: '$$1 ~ /^stamps\// && !/%/ { print $$1 }' debian/rules))
+$(ALL_STAMPS)::
+	@mkdir -p stamps
+	$(if $(wildcard $@),,touch $@)

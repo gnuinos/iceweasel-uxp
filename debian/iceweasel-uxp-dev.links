@@ -1,0 +1,7 @@
+#!/usr/bin/dh-exec
+
+usr/lib/iceweasel-uxp  usr/lib/iceweasel-uxp-devel/bin
+usr/include/iceweasel-uxp  usr/lib/iceweasel-uxp-devel/include
+usr/share/idl/iceweasel-uxp  usr/lib/iceweasel-uxp-devel/idl
+usr/lib/iceweasel-uxp-devel/sdk/lib  usr/lib/iceweasel-uxp-devel/lib
+

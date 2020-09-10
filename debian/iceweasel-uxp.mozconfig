@@ -1,0 +1,31 @@
+# Set GTK Version to 2 or 3
+_GTK_VERSION=2
+
+mk_add_options AUTOCLOBBER=1
+mk_add_options MOZ_MAKE_FLAGS="-s -j2"
+
+# Standard build options for Iceweasel-UXP
+ac_add_options --enable-application=iceweasel-uxp
+ac_add_options --enable-optimize="-O2 -w"
+ac_add_options --enable-default-toolkit=cairo-gtk$_GTK_VERSION
+ac_add_options --enable-jemalloc
+ac_add_options --enable-strip
+ac_add_options --enable-alsa
+ac_add_options --enable-devtools
+ac_add_options --enable-release
+
+ac_add_options --disable-pulseaudio
+ac_add_options --disable-eme
+ac_add_options --disable-webrtc
+ac_add_options --disable-gamepad
+ac_add_options --disable-tests
+ac_add_options --disable-debug
+ac_add_options --disable-necko-wifi
+ac_add_options --disable-updater
+ac_add_options --disable-verify-mar
+ac_add_options --disable-crashreporter
+ac_add_options --disable-maintenance-service
+ac_add_options --disable-ipdl-tests
+ac_add_options --with-pthreads
+
+export MOZ_PKG_SPECIAL=gtk$_GTK_VERSION

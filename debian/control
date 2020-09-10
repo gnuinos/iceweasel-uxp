@@ -1,0 +1,94 @@
+Source: iceweasel-uxp
+Section: web
+Priority: optional
+Maintainer: Aitor Cuadrado Zubizarreta <aitor_czr@gnuinos.org>
+Build-Depends: autotools-dev,
+               debhelper (>= 9.20160114),
+               autoconf2.13,
+               dh-exec,
+               libx11-dev,
+               libx11-xcb-dev,
+               libxt-dev,
+               libgtk-3-dev,
+               libgtk2.0-dev (>= 2.10),
+               libglib2.0-dev (>= 2.16.0),
+               libstartup-notification0-dev,
+               libjpeg-dev,
+               zlib1g-dev,
+               libreadline-dev,
+               libevent-dev,
+               libgconf2-dev,
+               libnspr4-dev,
+               libnss3-dev,
+               libsqlite3-dev,
+               zlib1g-dev,
+               python2.7,
+               dpkg-dev (>= 1.16.1.1~),
+               libdbus-glib-1-dev,
+               libffi-dev,
+               libjsoncpp-dev,
+               libasound2-dev,
+               yasm (>= 1.1),
+               nodejs (>= 8.11),
+               zip,
+               unzip,
+               locales,
+               xvfb,
+               xfonts-base,
+               xauth,
+               ttf-bitstream-vera,
+               fonts-freefont-ttf,
+               fonts-dejima-mincho,
+               iso-codes
+Build-Conflicts: graphicsmagick-imagemagick-compat
+Standards-Version: 3.9.8.0
+Vcs-Git: https://git.devuan.org/aitor_czr/iceweasel-uxp
+
+Package: iceweasel-uxp
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         fontconfig,
+         procps,
+         debianutils (>= 1.16),
+Recommends: libavcodec58 | libavcodec-extra58 | libavcodec57 | libavcodec-extra57 | libavcodec56 | libavcodec-extra56 | libavcodec55 | libavcodec-extra55 | libavcodec54 | libavcodec-extra54 | libavcodec53 | libavcodec-extra53
+Suggests: fonts-stix | otf-stix,
+          fonts-lmodern,
+          libgssapi-krb5-2 | libkrb53,
+          libcanberra0,
+          libgtk2.0-0,
+          alsa-oss
+Conflicts: iceweasel (<< 45)
+Provides: www-browser,
+          x-www-browser
+Description: Safe and easy web browser from Hyperbola GNU/Linux
+ Re-branding of Basilisk web browser by Moonchild Productions, built on 
+ the Unified XUL Platform and preserving the original code base prior to 
+ Firefox 60's drastic web-engine changes in the spirit of cultural freedom 
+ and privacy. Unlike previous Iceweasel versions, Iceweasel-UXP is not just 
+ a rebranding of Firefox. It contains a new browser engine and has it's own 
+ codebase  with support for modern web application technologies as well as 
+ legacy addons.
+
+Package: iceweasel-uxp-dev
+Architecture: any
+Section: devel
+Priority: extra
+Depends: ${shlibs:Depends},
+	${misc:Depends},
+	iceweasel-uxp (= ${binary:Version})
+Provides:firefox-dev,  ${app:Provides}
+Conflicts: xulrunner-2.0-dev,
+	xulrunner-1.9.2-dev,
+	xulrunner-1.9-dev,
+	${app:Conflicts}
+Description: Safe and easy web browser from Hyperbola GNU/Linux
+ Re-branding of Basilisk web browser by Moonchild Productions, built on 
+ the Unified XUL Platform and preserving the original code base prior to 
+ Firefox 60's drastic web-engine changes in the spirit of cultural freedom 
+ and privacy. Unlike previous Iceweasel versions, Iceweasel-UXP is not just 
+ a rebranding of Firefox. It contains a new browser engine and has it's own 
+ codebase  with support for modern web application technologies as well as 
+ legacy addons.
+ .
+ This package contains the headers and SDK for building plugins with Iceweasel-UXP.

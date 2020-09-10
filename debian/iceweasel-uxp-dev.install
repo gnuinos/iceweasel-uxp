@@ -1,0 +1,93 @@
+#!/usr/bin/dh-exec
+
+usr/local/include/iceweasel-uxp/js.msg  usr/include/iceweasel-uxp/
+usr/local/include/iceweasel-uxp/*.inc  usr/include/iceweasel-uxp/
+usr/local/include/iceweasel-uxp/nss/nssck.api  usr/include/iceweasel-uxp/
+
+usr/local/include/iceweasel-uxp/*.h  usr/include/iceweasel-uxp/ 
+usr/local/include/iceweasel-uxp/angle/*.h  usr/include/iceweasel-uxp/angle/
+usr/local/include/iceweasel-uxp/angle/KHR/*.h  usr/include/iceweasel-uxp/angle/KHR/
+usr/local/include/iceweasel-uxp/cubeb/*.h  usr/include/iceweasel-uxp/iceweasel-uxp/cubeb/
+usr/local/include/iceweasel-uxp/demuxer/*.h  usr/include/iceweasel-uxp/iceweasel-uxp/demuxer/
+usr/local/include/iceweasel-uxp/google/protobuf/*.h  usr/include/iceweasel-uxp/google/protobuf/
+usr/local/include/iceweasel-uxp/google/protobuf/io/*.h  usr/include/iceweasel-uxp/google/protobuf/io/
+usr/local/include/iceweasel-uxp/google/protobuf/stubs/*.h  usr/include/iceweasel-uxp/google/protobuf/stubs/
+usr/local/include/iceweasel-uxp/gtest/*.h  usr/include/iceweasel-uxp/gtest/
+usr/local/include/iceweasel-uxp/ipc/*.h  usr/include/iceweasel-uxp/ipc/
+usr/local/include/iceweasel-uxp/kiss_fft/*.h  usr/include/iceweasel-uxp/kiss_fft/
+usr/local/include/iceweasel-uxp/libavutil/*.h  usr/include/iceweasel-uxp/libavutil/
+usr/local/include/iceweasel-uxp/brotli/*.h  usr/include/iceweasel-uxp/brotli/
+usr/local/include/iceweasel-uxp/woff2/*.h  usr/include/iceweasel-uxp/woff2/
+usr/local/include/iceweasel-uxp/mtransport/*.h  usr/include/iceweasel-uxp/mtransport/
+usr/local/include/iceweasel-uxp/nspr/*.h  usr/include/iceweasel-uxp/nspr/
+usr/local/include/iceweasel-uxp/nspr/md/*.cfg  usr/include/iceweasel-uxp/nspr/*.cfg
+usr/local/include/iceweasel-uxp/nspr/private/*.h  usr/include/iceweasel-uxp/nspr/private/
+usr/local/include/iceweasel-uxp/ogg/*.h  usr/include/iceweasel-uxp/ogg/
+usr/local/include/iceweasel-uxp/psshparser/*.h  usr/include/iceweasel-uxp/psshparser/
+usr/local/include/iceweasel-uxp/soundtouch/*.h  usr/include/iceweasel-uxp/soundtouch/
+usr/local/include/iceweasel-uxp/theora/*.h  usr/include/iceweasel-uxp/theora/
+usr/local/include/iceweasel-uxp/vorbis/*.h  usr/include/iceweasel-uxp/vorbis/
+usr/local/include/iceweasel-uxp/webp/*.h  usr/include/iceweasel-uxp/webp/
+usr/local/include/iceweasel-uxp/cairo/*.h  usr/include/iceweasel-uxp/cairo/
+usr/local/include/iceweasel-uxp/dbm/*.h  usr/include/iceweasel-uxp/dbm/
+usr/local/include/iceweasel-uxp/gfxipc/*.h  usr/include/iceweasel-uxp/gfxipc/
+usr/local/include/iceweasel-uxp/graphite2/*.h  usr/include/iceweasel-uxp/graphite2/
+usr/local/include/iceweasel-uxp/harfbuzz/*.h  usr/include/iceweasel-uxp/harfbuzz/
+usr/local/include/iceweasel-uxp/js/*.h  usr/include/iceweasel-uxp/js/
+usr/local/include/iceweasel-uxp/libavcodec/*.h  usr/include/iceweasel-uxp/libavcodec/
+usr/local/include/iceweasel-uxp/libmkv/*.h  usr/include/iceweasel-uxp/libmkv/
+usr/local/include/iceweasel-uxp/mp4_demuxer/*.h  usr/include/iceweasel-uxp/mp4_demuxer/
+usr/local/include/iceweasel-uxp/nestegg/*.h  usr/include/iceweasel-uxp/nestegg/
+usr/local/include/iceweasel-uxp/nss/*.h  usr/include/iceweasel-uxp/nss/
+usr/local/include/iceweasel-uxp/opus/*.h  usr/include/iceweasel-uxp/opus/
+usr/local/include/iceweasel-uxp/snappy/*.h  usr/include/iceweasel-uxp/snappy/
+usr/local/include/iceweasel-uxp/speex/*.h  usr/include/iceweasel-uxp/speex/
+usr/local/include/iceweasel-uxp/unicode/*.h  usr/include/iceweasel-uxp/unicode/
+usr/local/include/iceweasel-uxp/vpx/*.h  usr/include/iceweasel-uxp/vpx/
+
+usr/local/include/iceweasel-uxp/mozilla/*.h  usr/include/iceweasel-uxp/mozilla/
+usr/local/include/iceweasel-uxp/mozilla/a11y/*.h  usr/include/iceweasel-uxp/mozilla/a11y/
+usr/local/include/iceweasel-uxp/mozilla/browser/*.h  usr/include/iceweasel-uxp/mozilla/browser/
+usr/local/include/iceweasel-uxp/mozilla/chrome/*.h  usr/include/iceweasel-uxp/mozilla/chrome/
+usr/local/include/iceweasel-uxp/mozilla/css/*.h  usr/include/iceweasel-uxp/mozilla/css/
+usr/local/include/iceweasel-uxp/mozilla/devtools/*.h  usr/include/iceweasel-uxp/mozilla/devtools/
+usr/local/include/iceweasel-uxp/mozilla/docshell/*.h  usr/include/iceweasel-uxp/mozilla/docshell/
+usr/local/include/iceweasel-uxp/mozilla/dom/*.h  usr/include/iceweasel-uxp/mozilla/dom/
+usr/local/include/iceweasel-uxp/mozilla/dom/Errors.msg  usr/include/iceweasel-uxp/mozilla/dom/
+usr/local/include/iceweasel-uxp/mozilla/dom/archivereader/*.h  usr/include/iceweasel-uxp/mozilla/dom/archivereader/
+usr/local/include/iceweasel-uxp/mozilla/dom/asmjscache/*.h  usr/include/iceweasel-uxp/mozilla/dom/asmjscache/
+#usr/local/include/iceweasel-uxp/mozilla/dom/battery/*.h  usr/include/iceweasel-uxp/mozilla/dom/battery/
+usr/local/include/iceweasel-uxp/mozilla/dom/cache/*.h  usr/include/iceweasel-uxp/mozilla/dom/cache/
+usr/local/include/iceweasel-uxp/mozilla/dom/filehandle/*.h  usr/include/iceweasel-uxp/mozilla/dom/filehandle/
+usr/local/include/iceweasel-uxp/mozilla/dom/indexedDB/*.h  usr/include/iceweasel-uxp/mozilla/dom/indexedDB/
+usr/local/include/iceweasel-uxp/mozilla/dom/ipc/*.h  usr/include/iceweasel-uxp/mozilla/dom/ipc/
+usr/local/include/iceweasel-uxp/mozilla/dom/network/*.h  usr/include/iceweasel-uxp/mozilla/dom/network/
+usr/local/include/iceweasel-uxp/mozilla/dom/power/*.h  usr/include/iceweasel-uxp/mozilla/dom/power/
+usr/local/include/iceweasel-uxp/mozilla/dom/quota/*.h  usr/include/iceweasel-uxp/mozilla/dom/quota/
+usr/local/include/iceweasel-uxp/mozilla/dom/time/*.h  usr/include/iceweasel-uxp/mozilla/dom/time/
+usr/local/include/iceweasel-uxp/mozilla/dom/workers/*.h  usr/include/iceweasel-uxp/mozilla/dom/workers/
+usr/local/include/iceweasel-uxp/mozilla/dom/workers/bindings/*.h  usr/include/iceweasel-uxp/mozilla/dom/workers/bindings/
+
+usr/local/include/iceweasel-uxp/mozilla/embedding/printingui/*.h  usr/include/iceweasel-uxp/mozilla/embedding/printingui/
+usr/local/include/iceweasel-uxp/mozilla/gfx/*.h  usr/include/iceweasel-uxp/mozilla/gfx/
+usr/local/include/iceweasel-uxp/mozilla/ipc/*.h  usr/include/iceweasel-uxp/mozilla/ipc/
+usr/local/include/iceweasel-uxp/mozilla/jsipc/*.h  usr/include/iceweasel-uxp/mozilla/jsipc/
+usr/local/include/iceweasel-uxp/mozilla/layers/*.h  usr/include/iceweasel-uxp/mozilla/layers/
+usr/local/include/iceweasel-uxp/mozilla/layout/*.h  usr/include/iceweasel-uxp/mozilla/layout/
+usr/local/include/iceweasel-uxp/mozilla/media/*.h  usr/include/iceweasel-uxp/mozilla/media/
+usr/local/include/iceweasel-uxp/mozilla/media/webrtc/*.h  usr/include/iceweasel-uxp/mozilla/media/webrtc/
+usr/local/include/iceweasel-uxp/mozilla/net/*.h  usr/include/iceweasel-uxp/mozilla/net/
+usr/local/include/iceweasel-uxp/mozilla/places/*.h  usr/include/iceweasel-uxp/mozilla/places/
+usr/local/include/iceweasel-uxp/mozilla/plugins/*.h  usr/include/iceweasel-uxp/mozilla/plugins/
+usr/local/include/iceweasel-uxp/mozilla/psm/*.h  usr/include/iceweasel-uxp/mozilla/psm/
+usr/local/include/iceweasel-uxp/mozilla/scache/*.h  usr/include/iceweasel-uxp/mozilla/scache/
+usr/local/include/iceweasel-uxp/mozilla/storage/*.h  usr/include/iceweasel-uxp/mozilla/storage/
+usr/local/include/iceweasel-uxp/mozilla/widget/*.h  usr/include/iceweasel-uxp/mozilla/widget/
+
+usr/local/lib/iceweasel-uxp-devel/sdk  usr/lib/iceweasel-uxp-devel/
+usr/local/lib/iceweasel-uxp-devel/xpcom-config.h  usr/lib/iceweasel-uxp-devel/
+
+usr/local/share/idl/iceweasel-uxp/*.idl  usr/share/idl/iceweasel-uxp/
+
+
+

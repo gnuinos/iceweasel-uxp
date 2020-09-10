@@ -1,0 +1,31 @@
+#!/usr/bin/dh-exec
+
+usr/local/lib/iceweasel-uxp/application.ini  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/chrome.manifest  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/dependentlibs.list  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/iceweasel-uxp  /usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/iceweasel-uxp-bin  /usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/icudt58l.dat  /usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/lib*.so  /usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/*.chk  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/browser/omni.ja  usr/lib/iceweasel-uxp/browser/
+usr/local/lib/iceweasel-uxp/omni.ja  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/platform.ini  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/plugin-container  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/removed-files  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/run-mozilla.sh  usr/lib/iceweasel-uxp/
+usr/local/lib/iceweasel-uxp/fonts/*.ttf  usr/lib/iceweasel-uxp/fonts/
+#usr/local/lib/iceweasel-uxp/gtk2/libmozgtk.so  usr/lib/iceweasel-uxp/gtk2/
+usr/local/lib/iceweasel-uxp/dictionaries/en-US.aff  usr/lib/iceweasel-uxp/dictionaries/
+usr/local/lib/iceweasel-uxp/dictionaries/en-US.dic  usr/lib/iceweasel-uxp/dictionaries/
+usr/local/lib/iceweasel-uxp/defaults/pref/channel-prefs.js  usr/lib/iceweasel-uxp/defaults/pref/
+usr/local/lib/iceweasel-uxp/browser/blocklist.xml   usr/lib/iceweasel-uxp/browser/
+usr/local/lib/iceweasel-uxp/browser/chrome.manifest  usr/lib/iceweasel-uxp/browser/
+usr/local/lib/iceweasel-uxp/browser/components/components.manifest  usr/lib/iceweasel-uxp/browser/components/
+usr/local/lib/iceweasel-uxp/browser/components/libbrowsercomps.so  usr/lib/iceweasel-uxp/browser/components/
+usr/local/lib/iceweasel-uxp/browser/icons/mozicon128.png  usr/lib/iceweasel-uxp/browser/icons/
+usr/local/lib/iceweasel-uxp/browser/chrome/icons/default/default16.png  usr/share/iceweasel-uxp/browser/chrome/icons/default/
+usr/local/lib/iceweasel-uxp/browser/chrome/icons/default/default32.png  usr/share/iceweasel-uxp/browser/chrome/icons/default/
+usr/local/lib/iceweasel-uxp/browser/chrome/icons/default/default48.png  usr/share/iceweasel-uxp/browser/chrome/icons/default/
+
+iceweasel-uxp.desktop /usr/share/applications/

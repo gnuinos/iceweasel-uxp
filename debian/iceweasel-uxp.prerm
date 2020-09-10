@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ] ; then
+    update-alternatives --remove x-www-browser /usr/bin/iceweasel-uxp
+    update-alternatives --remove gnome-www-browser /usr/bin/iceweasel-uxp
+fi
+
+if [ "$1" = "remove" ]; then
+    rm -rf /usr/lib/iceweasel-uxp/updates
+fi
+
+#DEBHELPER#
