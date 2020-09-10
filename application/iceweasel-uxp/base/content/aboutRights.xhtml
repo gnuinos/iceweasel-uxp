@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html [
+  <!ENTITY % htmlDTD PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+  %htmlDTD;
+  <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+  %brandDTD;
+  <!ENTITY % aboutRightsDTD SYSTEM "chrome://global/locale/aboutRights.dtd">
+  %aboutRightsDTD;
+]>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>&rights.pagetitle;</title>
+  <link rel="stylesheet" href="chrome://global/skin/about.css" type="text/css"/>
+</head>
+
+<body id="your-rights" dir="&rights.locale-direction;" class="aboutPageWideContainer">
+
+<h1>&rights.intro-header;</h1>
+
+<p>&rights.intro;</p>
+
+<ul>
+  <li>&rights.intro-point1a;<a href="https://www.mozilla.org/MPL/">&rights.intro-point1b;</a>&rights.intro-point1c;</li>
+<!-- Point 2 discusses Mozilla trademarks, and isn't needed when the build is unbranded.
+  - Point 3 discusses privacy policy, unbranded builds get a placeholder (for the vendor to replace)
+  - Point 4 discusses web service terms, unbranded builds gets a placeholder (for the vendor to replace) -->
+  <li>&rights.intro-point2a;</li>
+  <li>&rights.intro-point3a;<a href="https://wiki.hyperbola.info/doku.php?id=en:main:social_contract">&rights.intro-point3b;</a>&rights.intro-point3c;</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+These files are under the MPL 2, as below. However, please note that you 
+are not granted any trademark rights or licenses to the trademarks of the
+Mozilla Foundation or any party, including without limitation the
+Firefox name or logo.
+
+For more information, see: http://www.mozilla.org/foundation/licensing.html 
+
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+Please see the file ../../toolkit/content/license.html for the copyright 
+licensing conditions attached to this codebase, including copies of the
+licenses concerned.
+
+---
+
+License for iceweasel_icon/logo
+
+Version: MPL 1.1/GPL 2.0/LGPL 2.1
+
+The contents of this file are subject to the Mozilla Public License Version 
+1.1 (the "License"); you may not use this file except in compliance with 
+the License. You may obtain a copy of the License at 
+http://www.mozilla.org/MPL/
+
+Alternatively, the contents of this file may be used under the terms of
+either the GNU General Public License Version 2 or later (the "GPL"), or
+the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+in which case the provisions of the GPL or the LGPL are applicable instead
+of those above. If you wish to allow use of your version of this file only
+under the terms of either the GPL or the LGPL, and not to allow others to
+use your version of this file under the terms of the MPL, indicate your
+decision by deleting the provisions above and replace them with the notice
+and other provisions required by the GPL or the LGPL. If you do not delete
+the provisions above, a recipient may use your version of this file under
+the terms of any one of the MPL, the GPL or the LGPL.
+
+Ricardo Fernández Fuentes.
+ricardoffmadrid@gmail.com
+
+--- 
+
+NOTE: Iceweasel-UXP typeface was changed from the non-free "Libertad Book" to free "DejaVU Sans". 
+'about-wordmark', 'iceweasel_logo', and 'welcome-back' SVG and PNG files were optimized by Iceweasel-UXP developers.

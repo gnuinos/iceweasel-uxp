@@ -1,0 +1,704 @@
+{
+  "default": {
+    "visibleDefaultEngines": [
+      "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+    ]
+  },
+  "regionOverrides": {
+  },
+  "locales": {
+    "en-US": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ach": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "af": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "an": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ar": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "as": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ast": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "az": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "bg": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "bn-BD": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "bn-IN": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "br": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "bs": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ca": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "cak": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "cs": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "cy": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "da": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "de": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "dsb": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "el": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "en-GB": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "en-ZA": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "eo": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "es-AR": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "es-CL": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "es-ES": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "es-MX": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "et": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "eu": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "fa": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ff": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "fi": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "fr": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "fy-NL": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ga-IE": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "gd": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "gl": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "gn": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "gu-IN": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "he": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "hi-IN": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "hr": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "hsb": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "hu": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "hy-AM": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "id": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "is": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "it": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ja-JP-mac": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ja": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ka": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "kab": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "kk": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "km": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "kn": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ko": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "lij": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "lt": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ltg": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "lv": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "mai": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "mk": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ml": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "mr": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ms": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "my": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "nb-NO": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ne-NP": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "nl": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "nn-NO": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "or": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "pa-IN": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "pl": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "pt-BR": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "pt-PT": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "rm": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ro": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ru": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "si": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "sk": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "sl": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "son": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "sq": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "sr": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "sv-SE": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ta": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "te": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "th": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "tl": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "tr": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "uk": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "ur": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "uz": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "vi": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "wo": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "xh": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "zh-CN": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    },
+    "zh-TW": {
+      "default": {
+        "visibleDefaultEngines": [
+          "searx", "searx-tor", "yacy", "gnusocial", "invidious", "invidious-tor", "internet-archive", "wikipedia-en", "wikimedia-commons", "hyperbola-packages"
+        ]
+      }
+    }
+  }
+}
