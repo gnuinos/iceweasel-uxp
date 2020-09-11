@@ -21,7 +21,7 @@ COMMON_CONFIGURE_FLAGS += --target=$(DEB_HOST_MULTIARCH)
 COMMON_CONFIGURE_FLAGS += --host=$(DEB_HOST_MULTIARCH)
 COMMON_CONFIGURE_FLAGS += --prefix=/usr
 
-LIB_DIR := /usr/lib/$(DEB_HOST_MULTIARCH)/$(PRODUCT)
+LIB_DIR := /usr/lib/$(PRODUCT)
 SHARE_DIR := /usr/share/$(PRODUCT)
 
 LDFLAGS += -Wl,--as-needed
