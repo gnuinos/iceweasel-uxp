@@ -77,7 +77,7 @@ override_dh_clean:
 
 override_dh_auto_install-arch:
 	dh_auto_install --builddirectory=obj-$(DEB_BUILD_GNU_CPU)-pc-linux-gnu
-	#-TZ=UTC unzip -d debian/$(PRODUCT)$(LIB_DIR)/browser debian/$(PRODUCT)$(LIB_DIR)/browser/omni.ja 'defaults/preferences/*'
+	-TZ=UTC unzip -d debian/tmp$(LIB_DIR)/browser debian/tmp$(LIB_DIR)/browser/omni.ja 'defaults/preferences/*'
 
 override_dh_install-arch: debian/noinstall
 	awk '{print "debian/tmp/" $$1 }' < debian/noinstall | xargs rm -r
